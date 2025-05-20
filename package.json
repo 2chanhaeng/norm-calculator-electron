@@ -9,6 +9,8 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
+    "dist": "electron-builder -mw",
+    "dist:win": "electron-builder --win",
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
